@@ -1,0 +1,164 @@
+:root {
+    --main-font: "Comfortaa", sans-serif;
+    --main-heading: "Nerko One", cursive;
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+}
+
+body {
+    scroll-behavior: smooth;
+    transition: all 0.5 linear;
+}
+
+
+/* --------------------- Start Sidbar Section ---------------------  */
+
+#sidebar .icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#sidebar .content {
+    left:  -200px;
+    width: 200px;
+    z-index: 999999;
+}
+
+#sidebar .content .closeBtn {
+    cursor: pointer;
+}
+
+#sidebar .content .links a {
+    transition: all 0.5s linear;
+}
+
+#sidebar .content .links a:hover {
+    color: #D62E33 !important;
+}
+
+/* --------------------- End Sidbar Section ---------------------  */
+
+
+
+
+
+/* --------------------- Start Hoome Section ---------------------  */
+
+.header {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.7), rgba(214, 46, 51, 0.3)), url(../image/events-heavenly-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+/* --------------------- End Hoome Section ---------------------  */
+
+
+
+
+
+/* --------------------- Start Singer Section ---------------------  */
+
+#singer .contents h2 {
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;;
+}
+
+#singer .contents p {
+    background-color: rgba(181, 177, 177, 0.56);
+    padding: 10px;
+    margin: 0;
+    display: none;
+}
+
+#singer .contents p.first {
+    display: block;
+}
+
+/* --------------------- End Singer Section ---------------------  */
+
+
+
+
+
+/* --------------------- Start Count Event Section ---------------------  */
+
+#countEvent {
+    height: 350px;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.7), rgba(214, 46, 51, 0.3)), url(../image/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* --------------------- End Count Event Section ---------------------  */
+
+
+
+
+
+/* --------------------- Start Footer Section ---------------------  */
+
+.footer{
+    padding: 200px 0 70px;
+}
+
+.footer .info h2 {
+    font-weight: 900;
+}
+
+.footer .info p {
+    text-indent: 15px;
+}
+
+.footer .contacts .contact {
+    color: #777
+}
+
+.footer .contacts .contact:nth-child(2) p {
+    color: #D62E33 !important;
+}
+
+.footer .icons .icon {
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.footer .icons .icon:hover {
+    background-color: #D62E33 !important;
+    color: #f1f1f1 !important;
+}
+
+.footer .form textarea {
+    height: 150px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.footer .form p span {
+    color: #D62E33 !important;
+}
+
+.footer .form button {
+    background-color: #D62E33 !important;
+    color: white;
+    transition: all 0.5s linear;
+}
+
+.footer .form button:hover {
+    background-color: white !important;
+    color: #D62E33 !important;
+    border:  1px solid #D62E33;
+}
+
+/* --------------------- End Footer Section ---------------------  */
+
+
